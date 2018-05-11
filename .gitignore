@@ -1,8 +1,8 @@
 *.sw[a-z]
 coverage
 node_modules
-bitcore-payment-protocol.js
-bitcore-payment-protocol.min.js
+socialsendcore-payment-protocol.js
+socialsendcore-payment-protocol.min.js
 tests.js
 
 lib/errors/index.js
@@ -11,5 +11,3 @@ npm-debug.log
 bower_components
 report
 .DS_Store
-
-.idea/

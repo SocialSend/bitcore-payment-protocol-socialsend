@@ -1,7 +1,7 @@
 {
-  "name": "@dashevo/dashcore-payment-protocol",
-  "version": "1.2.1",
-  "description": "Payment Protocol (BIP70 and related) support for dashcore",
+  "name": "socialsendcore-payment-protocol",
+  "version": "1.7.0",
+  "description": "Payment Protocol (BIP70 and related) support for socialsendcore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -31,26 +31,34 @@
     {
       "name": "Esteban Ordano",
       "email": "eordano@gmail.com"
+    },
+    {
+      "name": "Matias Alejo Garcia",
+      "email": "ematiu@gmail.com"
     }
   ],
   "keywords": [
-    "dash",
-    "bitcore-dash",
-    "dashcore"
+    "socialsend",
+    "socialsendcore",
+    "payment protocol",
+    "BIP70"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashevo/dashcore-payment-protocol.git"
+    "url": "https://github.com/SocialSend/socialsendcore-payment-protocol.git"
   },
   "browser": "lib/browser.js",
   "dependencies": {
-    "asn1.js": "=4.5.2",
-    "bitcore-lib-dash": "^0.14.0",
-    "jsrsasign": "=5.0.10",
+    "asn1.js": "=4.9.1",
+    "asn1.js-rfc3280": "=4.0.0",
+    "asn1.js-rfc5280": "=2.0.0",
+    "socialsendcore-lib": "github:SocialSend/socialsendcore-lib",
+    "bs58": "^4.0.1",
+    "jsrsasign": "^8.0.4",
     "protobufjs": "=5.0.1"
   },
   "devDependencies": {
-    "bitcore-build-dash": "git://github.com/dashpay/bitcore-build-dash.git#0125d7646a40fcb6c1e904ca48a4f24f2dab4320",
+    "socialsendcore-build": "github:SocialSend/socialsendcore-build",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
